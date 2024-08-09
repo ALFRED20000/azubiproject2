@@ -73,7 +73,11 @@ ________________________________________________________________________________
 ###### Dockerfile was created from aparche with port 80 exposed as shown below
 
 ```
+FROM php:8.2-apache
 
+COPY . /var/www/html/
+
+EXPOSE 80
 ```
 
 
